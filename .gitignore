@@ -1,0 +1,39 @@
+# talentsprint-financial-advisor
+# Ignore configuration file
+config.yaml
+.config
+.env
+
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore Chainlit-specific folder
+.chainlit/
+.files/
+
+# Ignore Python cache files and folders
+__pycache__/
+*.py[cod]
+
+# Ignore additional common Python artifacts
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore all csv file from following locations
+*.csv
+*.xlsx
