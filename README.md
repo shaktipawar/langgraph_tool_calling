@@ -5,7 +5,7 @@ This application helps in understanding how Tool calling works in Custom Agent G
 
 # Prerequisites
 * Create vitual environment on your system (for Windows).
-Be inside you project root folder (langgraph_tool_calling)
+Be inside project root folder (langgraph_tool_calling)
     ```
     python -m venv venv
     cd venv
@@ -16,7 +16,7 @@ Be inside you project root folder (langgraph_tool_calling)
 
     pip install -r requirements.txt
     ```
-* Inside project rool folder (langgraph_tool_calling), create config.yaml and update your OPENAI_API_KEY.
+* Inside project root folder (langgraph_tool_calling), create config.yaml and update following values.
     ```
     OPENAI_API_KEY: "<<ADD YOUR OPEN_AI_KEY>>"
     LANGCHAIN_TRACING_V2 : "true"
